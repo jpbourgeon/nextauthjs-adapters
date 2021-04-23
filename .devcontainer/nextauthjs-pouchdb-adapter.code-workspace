@@ -1,0 +1,19 @@
+{
+  // dossiers de travail
+  "folders": [
+    {
+      "path": "/workspaces/nextauthjs-pouchdb-adapter"
+    }
+  ],
+  "settings": {
+    // terminal
+    "terminal.integrated.cwd": "/workspaces/nextauthjs-pouchdb-adapter",
+    // eslint / prettier
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+// https://code.visualstudio.com/docs/remote/devcontainerjson-reference
+{
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node",
+  "workspaceFolder": "/workspaces",
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "humao.rest-client",
+    "esbenp.prettier-vscode",
+    "davraamides.todotxt-mode",
+  ],
+  "postCreateCommand": "/bin/bash /workspaces/nextauthjs-pouchdb-adapter/.devcontainer/post-create.sh"
+}
