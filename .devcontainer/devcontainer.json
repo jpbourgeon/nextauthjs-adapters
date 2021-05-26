@@ -1,9 +1,7 @@
-// https://code.visualstudio.com/docs/remote/devcontainerjson-reference
 {
-  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node",
+  "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node",
   "workspaceFolder": "/workspaces",
   "extensions": [
-    "tomsaunders-code.workspace-explorer",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "davraamides.todotxt-mode",
