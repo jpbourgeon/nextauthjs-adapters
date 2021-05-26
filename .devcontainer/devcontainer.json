@@ -3,8 +3,8 @@
   "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node",
   "workspaceFolder": "/workspaces",
   "extensions": [
+    "tomsaunders-code.workspace-explorer",
     "dbaeumer.vscode-eslint",
-    "humao.rest-client",
     "esbenp.prettier-vscode",
     "davraamides.todotxt-mode",
   ],
