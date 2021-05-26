@@ -16,3 +16,5 @@ git config checkout.defaultRemote origin
 git remote add upstream https://github.com/nextauthjs/adapters.git
 git fetch --all
 git checkout canary
+git checkout main .devcontainer
+git reset HEAD .devcontainer/*
