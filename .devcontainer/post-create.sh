@@ -14,13 +14,5 @@ dpkg -i gh_1.9.2_linux_amd64.deb
 cd /workspaces/nextauthjs-pouchdb-adapter
 git config checkout.defaultRemote origin
 git remote add upstream https://github.com/nextauthjs/adapters.git
-git fetch --all --prune
-git pull
-
-# SETUP VSCODE WORKSPACE FOR NEXT CONTAINER OPENING
-
-# FINISH SETUP
+git fetch --all
 git checkout canary
-git checkout main .devcontainer
-git reset HEAD .devcontainer/*
-cp /workspaces/nextauthjs-pouchdb-adapter/.devcontainer/nextauthjs-pouchdb-adapter.code-workspace /workspaces/nextauthjs-pouchdb-adapter.code-workspace
