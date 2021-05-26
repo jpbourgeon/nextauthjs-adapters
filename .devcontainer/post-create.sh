@@ -6,9 +6,9 @@ cd /home/node
 
 yarn global add lerna
 
-## GH CLI v1.9.2
-wget -nc https://github.com/cli/cli/releases/download/v1.9.2/gh_1.9.2_linux_amd64.deb
-dpkg -i gh_1.9.2_linux_amd64.deb
+## GH CLI v1.10.3
+wget -nc https://github.com/cli/cli/releases/download/v1.10.3/gh_1.10.3_linux_amd64.deb
+dpkg -i gh_1.10.3_linux_amd64.deb
 
 # PREPARE THE REPO
 cd /workspaces/nextauthjs-pouchdb-adapter
