@@ -18,3 +18,6 @@ git fetch --all
 git checkout canary
 git checkout main .devcontainer
 git reset HEAD .devcontainer/*
+
+# SETUP WORKSPACE
+cp /workspaces/nextauthjs-pouchdb-adapter/.devcontainer/nextauthjs-pouchdb-adapter.code-workspace /workspaces/default.code-workspace
